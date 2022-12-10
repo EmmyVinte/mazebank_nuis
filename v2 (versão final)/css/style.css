@@ -54,6 +54,11 @@ body {
 .a1 img.back {
   padding-right: 10px;
 }
+.a1 img.back:hover {
+  cursor: pointer;
+  filter: invert(100%) sepia(195%) saturate(0%) hue-rotate(263deg) brightness(200%) contrast(50%);
+  padding-right: 10px;
+}
 
 .a2 {
   display: flex;
