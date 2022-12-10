@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 72vh;
+  width: 50vh;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  border: 2px solid #DF3C38;
+}
+
+.a1 {
+  display: flex;
+  justify-content: center;
+}
+.a1 img {
+  padding: 10px 0px 10px 0px;
+  height: 150px;
+  width: 0 auto;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #DF3C38;
+}
+
+.a2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px 10px 5px;
+}
+.a2 h1 {
+  display: flex;
+  align-self: flex-start;
+  font-size: 15px;
+}
+.a2 span {
+  font-size: 18px;
+}
+
+.a2-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.a3 .a4, .a3 .a5, .a3 .a6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.a3 button.sacar, .a3 button.depositar, .a3 button.registro {
+  height: 40px;
+  max-width: 370px;
+  min-width: 200px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  background-color: #DF3C38;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+.a3 .hr-2 {
+  display: none;
+}
+.a3 .dica, .a3 .dica2, .a3 .dica3 {
+  max-width: 200px;
+  padding: 5px 0px 5px 5px;
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    height: 75vh;
+    width: 50vh;
+    padding: 20px 20px;
+  }
+  .a2 {
+    flex-direction: column;
+  }
+  .a2 h1 {
+    display: flex;
+    align-self: center;
+    font-size: 15px;
+  }
+  .a2 #player-name {
+    padding-bottom: 5px;
+  }
+  .hr-2 {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
